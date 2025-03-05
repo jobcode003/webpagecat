@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="Title">
+            <h1>
+                Moringa School
+            </h1>
+        </div>
+         <div class="icons">
+             <box-icon name='menu' id="show_menu" class="show_menu" ></box-icon>
+        </div>
+
+        <div id="navigation" class="navigation nav">
+            <ul class="nav_list">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#achieve">Achievement</a></li>
+                  <li><a href="#contact">Contact</a></li>
+            </ul>
+             <box-icon name='x' id="hide_menu" class="hide_menu"></box-icon>
+        </div>
+
+
+    </div>
+
+</header>
+<div class="section2">
+
+
+    <div class="s_image">
+      <img src="background.jpeg" class="img">
+    </div>
+    <div class="logo">
+        <img src="logo-img.png" class="logo_png">
+    </div>
+
+
+</div>
+
+<div class="section3">
+    <div id="intro">
+        <h1 class="intro">Introduction</h1>
+        <p>
+
+            In 2014, Moringa School launched its maiden Software Development class in Kenya with a cohort
+            of only four (4) students and a vision for "A world in which anyone can create their future".
+            At that time, there was a growing demand for skilled tech talent as companies increased investment in
+            technology to gain a competitive advantage from their own digital transformation.
+        </p><br>
+        <p>
+            Through the introduction of its 5-6 month Software Development, Data Science, Product Design,
+            and Cyber Security Bootcamps, Moringa School embarked on a journey that would integrate over 7,000+
+            learners from diverse backgrounds and experiences while channeling their motivation to learn and grow
+            through market-aligned curriculum, a learning approach that simulates practical on-the-job-experience,
+            and a vibrant community of employer partners, higher learning institutions, and other industry stakeholders.
+            This approach ensured that graduating students were prepared to take up their rightful place in the digital
+            economy evidenced by the EdTech leader's employment rate of 70% for all job-seeking alumni within 12 months.
+        </p>
+    </div>
+    <div id="achieve">
+        <h1 class="achieve">Achievements</h1>
+        <h5 class="achiev">Why do i admire Moringa School?</h5>
+        <dl>
+            <dt>1.Google for Startups Recognition</dt>
+            <dd>
+                Moringa was recognized by Google for Startups as one of the top organizations driving innovation in Africa.
+            </dd>
+            <br>
+            <dt>2.Partnerships with Global Companies</dt>
+            <dd>
+                Collaborations with companies like Microsoft, Safaricom, and Google to provide training and job opportunities.
+
+            </dd>
+            <br>
+             <dt>3.Diversity and Inclusion in Tech</dt>
+            <dd>
+                The school has played a role in promoting gender diversity in technology by training many women in software development and data science.
+            </dd>
+            <br>
+             <dt>4.Impact on Africa’s Tech Ecosystem</dt>
+            <dd>
+                 Contributed significantly to the growth of Africa's tech talent pool, producing skilled developers and data scientists.
+            </dd>
+            <br>
+             <dt>5.High Employment Rate</dt>
+            <dd>
+                Many graduates secure jobs in top tech companies locally and internationally within months of completing their courses.
+            </dd>
+            <br>
+
+        </dl>
+        <p class="addition">This shows that Moringa is the best school with its reputation being spoken about across the globe.It
+        has impacted the society at large by equiping students and members of the society with essential Tech skills
+        that foster the development of cutting edge innovations.</p>
+    </div>
+    <div id="contact">
+        <h1 class="contact">Contact us through</h1>
+        <p>Ware located at Ngong Lane, Ngong Lane Plaza, 1st Floor, Nairobi Kenya</p>
+        <p>
+            +254711 082 146 (General Enquiries)<br>
+            +254712 293 878 (Whatsapp)<br>
+            0738 368 319 (Corporate Inquiries)<br>
+        </p>
+        <a href="contact@moringaschool.com">contact@moringaschool.com</a><br>
+        <a>P.O Box 28860 - 00100, Nairobi</a>
+    </div>
+</div>
+
+<footer>
+    <div class="container2">
+        <div class="social_links">
+            <ul class="s_links">
+                <li><a href="">Facebook <box-icon name='facebook-circle' type='logo' color='#0d57d8' class="box-ico" ></box-icon></a></li>
+                <li><a href="">Twitter <box-icon name='twitter' type='logo' color='#0d66d8' class="box-ico"></box-icon></a></li>
+                <li><a href="">LinkedIn <box-icon name='linkedin-square' type='logo' color='#0d66d8' class="box-ico"></box-icon></a></li>
+                <li><a href="">Youtube <box-icon name='youtube' type='logo' color='#d80d10' class="box-ico" ></box-icon></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p class="name"> &copy;2025 Elite Group. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const nav=document.getElementById('navigation');
+    const showMenu=document.getElementById('show_menu');
+    const hideMenu=document.getElementById('hide_menu');
+    showMenu.addEventListener('click',showmenu);
+    function showmenu(){
+        nav.style.left="0";
+    }
+    hideMenu.addEventListener('click',hide);
+    function hide(){
+        nav.style.left="-100%";
+    }
+
+
+</script>
+
+</body>
+</html>
