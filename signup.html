@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>sign up</title>
+<head>
+<style>
+    body{
+        background-color: rgb(23,45,66);
+    }
+    form{
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    label{
+        font-size: 28px;
+        color: white;
+
+    }
+    .input1{
+        width: 400px;
+        height: 20px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .inpu{
+        width: 200px;
+        height: auto;
+        margin: 15px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 25px;
+    }
+</style>
+
+</head>
+<body>
+<div>
+    <form action="signup.php" method="post">
+        <label for="First name">First name</label><br>
+        <input type="text" id="First name" name="firstname" class="input1"><br>
+        <label for="second name">second name</label><br>
+        <input type="text" id="second name" name="secondname" class="input1"><br>
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" class="input1"><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password" name="password" class="input1">
+
+        <input type="submit" class="inpu">
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
